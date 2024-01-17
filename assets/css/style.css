@@ -1,0 +1,520 @@
+*{
+    margin: 0px;
+    padding: 0px;
+     box-sizing: border-box;
+}
+
+
+.list-unstyled a{
+    text-decoration: none!important;
+    color: black!important;
+}
+.navbar-brand{
+    color: blue!important;
+    font-size: 25px;
+    margin: 0px 45px;
+}
+
+.background{
+    background-image: url(../images/main-images.png) ;
+     background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    padding-top: 130px;
+    padding-bottom: 260px;
+    max-width: 100%;
+    height: 640px;
+}
+#button{
+    width: 200px;
+    height: 60px;
+}
+
+/* section-card */
+
+.difficuilt-card .card{
+    background: linear-gradient(133.69deg, #062267 38.45%, #021C5B 89.03%);
+    border-radius: 10px;
+}
+.difficuilt-card .card img{
+    max-width: 24%;
+}
+.difficuilt-card .row .diff-1{
+    margin-top: 100px;
+}
+.difficuilt-card .row .diff-2{
+    margin-top: 43px;
+    margin-left: -7%;
+}
+.difficuilt-card .row .diff-3{
+    margin-left: -8%;
+    margin-top: -11px;
+}
+.difficuilt-card .row .different-1{
+    margin-top: 202px;
+}
+.difficuilt-card .row .different-2{
+    margin-left: -45px;
+    margin-top: 159px;
+}
+.difficuilt-card .row .different-3{
+    margin-left: -43px;
+    margin-top: 99px;
+}
+
+.card{
+    border: 0px!important;
+}
+.card-section-3 .row {
+    margin-top: -160px;
+    margin-bottom: 60px;
+}
+
+.card-section-3 .mw-1 {
+    margin: 15px auto;
+    min-height: 246px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px 4px rgba(206, 204, 204, 0.25);
+    border-radius: 10px;
+}
+body{
+    background: #eef2f7;
+}
+.navbar-light .navbar-brand{
+    font-size: 30px;
+    color: #0D328D;
+    padding: 14px 27px;
+
+}
+.background{
+    background-image: url(../images/main-images.png) ;
+     background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    padding-top: 120px;
+    padding-bottom: 280px;
+}
+.text p{
+    font-size: 29px;
+    color: white;
+}
+.btn{
+    padding: 7px 27px;
+}
+.btn:hover:hover{
+    background-color: black;
+    color: white;
+}
+.card-section{
+    padding-bottom: 30px;
+}
+.card-section img{
+    max-width: 100%;
+}
+.card-section .btwo{
+    font-size: 19px;
+}
+.card-section .row .para p{
+    font-size: 15px;
+}
+.para p{
+    font-size: 20px;
+}
+.card-section .span{
+    color: #0D328D;
+}
+.card-section .btn{
+    background-color: #0D328D;
+    padding: 4px 40px;
+}
+
+/* section */
+.action{
+    width: 450px;
+}
+.emailw-value-prop-title-gradient{
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(90deg,#1179fc,#dc82fc);
+    -webkit-background-clip: text;
+    background-clip: text;
+    padding-right: 10px;
+}
+.super-section{
+    font-size: 37px;
+    /* margin: 80px 0px; */
+}
+.see-more button{
+    
+    /* border: 1px solid var(--royal-blue); */
+    /* color: var(--royal-blue); */
+    color: #1179fc;
+    border: 1px solid blue;
+     background-color: blue;
+     /* border-radius: 40px; */
+     color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 32px;
+    font-size: 18px;
+    font-weight: 700;
+    /* line-height: 0px; */
+    /* min-height: 0%; */
+    width: 180px;
+    text-decoration: none;
+    transition: all .2s;
+    display: flex;
+    box-shadow: 0 1px 80px rgba(17,121,252,.05);
+    height: 50px;
+    width: 210px;
+    justify-content: center; 
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+.see-more button i{
+    margin-right: 5px;
+    font-size: 28px;
+    margin-left: 10px;
+}
+.see-more button:hover{
+    background-color:white;
+    color:blue;
+}
+
+/* section */
+.side-bar{
+    background: #eef2f7;
+    
+}
+.h1 .emailw-value-prop-title-gradient {
+  
+        -webkit-text-fill-color: transparent;
+        background-image: linear-gradient(90deg,#1179fc,#dc82fc);
+        -webkit-background-clip: text;
+        background-clip: text;
+        padding-right: 10px;
+    
+}
+.h1 p{
+    font-size: 18px;
+}
+/* section 2 */
+
+
+.level-section .difficulty .card {
+    width: 155px;
+    height: 150px;
+    background: linear-gradient(180deg, #0D328D 0%, #011C5C 100%);
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #fff;
+    margin: 10px 20px;
+    position: absolute;
+    left: 190px;
+    top: -25px;
+    z-index: 1;
+}
+
+.level-section .difficulty .first {
+    position: absolute;
+    left: 130px;
+    z-index: 2;
+    top: 65px;
+}
+
+.level-section .difficulty .second {
+    background: linear-gradient(180deg, #0D328D 0%, #011C5C 100%);
+    position: absolute;
+    left: 320px;
+    z-index: 2;
+    top: 105px;
+}
+
+.level-section .difficulty .third {
+    background: linear-gradient(180deg, #0D328D 0%, #011C5C 100%);
+    position: absolute;
+    left: -2px;
+    z-index: 2;
+    top: 160px;
+}
+
+.level-section .difficulty .four {
+    background: linear-gradient(133.69deg, #062267 38.45%, #021C5B 89.03%);
+    position: absolute;
+    left: 190px;
+    z-index: 1;
+    top: 220px;
+}
+
+.level-section .difficulty .five {
+    background: linear-gradient(180deg, #0D328D 0%, #021C5B 100%);
+    position: absolute;
+    left: 115px;
+    z-index: 4;
+    top: 290px;
+}
+
+.level-section .difficulty i {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.paragraph {
+    font-size: 18px;
+    line-height: 22px;
+    color: #818995;
+}
+/* section */
+.class p{
+    font-size: 14px;
+}
+.alert img{
+    margin-top: -130px;
+    height: 500px;
+    width: 130%;
+    margin-left: -100px;
+}
+ /* section */
+ .boiex{
+    font-size: 20px;
+ }
+ /* section */
+ .latast {
+    background-image:url(../images/macbook-459196_1280.jpg);
+    min-height: 600px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+
+ 
+#Contact {
+    position: relative;
+  }  
+  #Contact-box {
+    padding-bottom: 34px;
+  }
+  
+  #Contact-box input,
+  #Contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.2rem;
+  }
+  
+  footer {
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+  }
+  
+  button {
+    border: 2px solid black;
+    height: 40px;
+    width: 140px;
+    border-radius: 12px;
+    background-color: white;
+    /* margin-left: 120px; */
+    border: none;
+  }
+  
+  button:hover {
+    color:white;
+    
+    background-color: black;
+  }
+  
+  #Contact-box label {
+    font-size: 1.3rem;
+  }
+  
+  .still{
+    font-size: 20px;
+  }
+  .form-group input{
+    width: 515px;
+    border-radius: 6px;
+    border: none;
+    height: 40px;
+    padding: 10px 10px;
+    /* width: 100%; */
+  }
+  
+  .form-group textarea{
+    width: 100%;
+    border-radius: 6px;
+    padding: 10px 10px;
+    border: none;
+  }
+
+  /* section */
+  .goodtast{
+    width: 85.5%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  
+
+  
+@media (max-width:1200px) {
+    .navbar .nav-link {
+        font-size: 18px;
+    }
+
+    .header .nav li {
+        text-align: center;
+        margin-bottom: 0px;
+        font-family: 'Cerebri Sans Pro';
+        font-weight: 700;
+        line-height: 22px;
+    }
+
+    .level-section .difficulty .card {
+        min-width: 178px;
+        max-height: 157px;
+        background: linear-gradient(133.69deg, #062267 38.45%, #021C5B 89.03%);
+        border-radius: 12px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        color: #fff;
+        margin: 10px 20px;
+        position: relative;
+        left: 30px;
+        top: -5px;
+    }
+
+    .level-section .danish {
+        padding-bottom: 0px;
+    }
+}
+@media(max-width:992px){
+    .form-group input{
+        /* width: 515px; */
+        border-radius: 6px;
+        border: none;
+        height: 40px;
+        /* padding: 10px 10px; */
+        width: 95%;
+        display: flex;
+        justify-content: center;
+      }
+      .form-group{
+        display: flex;
+        justify-content: center;
+      }
+      .alert img{
+        margin-top: -80px;
+        height: 500px;
+        width: 100%;
+        margin-left: 20px;
+    }
+}
+@media(max-width:668px){
+    .form-group input{
+        /* width: 515px; */
+        border-radius: 6px;
+        border: none;
+        height: 40px;
+        /* padding: 10px 10px; */
+        width: 95%;
+        display: flex;
+        justify-content: center;
+      }  
+      .alert img{
+        margin-top: -80px;
+        height: 600px;
+        width: 100%;
+        /* margin-left: -100px; */
+    }
+      
+}
+@media(max-width:576px) {
+    .alert img{
+        margin-top: -80px;
+        height: 400px;
+        width: 100%;
+        margin-left: 20px;
+    }
+}
+
+
+@media(max-width:320px){
+    .img-card p{
+        text-align: left;
+    }
+    .text p {
+        color: bisque;
+        font-size: 26px;
+    }
+    .super-section{
+        font-size: 26px;
+    }
+    .offer p{
+        text-align: justify;
+    }
+    .navbar-brand{
+        color: blue!important;
+        font-size: 25px;
+        margin: 0px 0px;
+    }
+    .side-bar img{
+        width: 300px;
+    }
+    .h1 p {
+        font-size: 15;
+    }
+    .side-bar p{
+        text-align: justify;
+    }
+    .navbar-toggler{
+        width: 75px;
+    }
+    .para p {
+        text-align: justify;
+    }
+    .alert img {
+        /* margin-top: -130px; */
+        width: 100%;
+        align-items: center;
+        height: 320px;
+        margin-left: -20px;
+        /* margin: auto; */
+    }
+    .latast {
+        background-image:url(../images/macbook-459196_1280.jpg);
+        /* min-height: 600px; */
+        width: 100%;
+        background-position: center center;
+        background-repeat: no-repeat
+     }
+     .form-group input{
+        /* width: 515px; */
+        border-radius: 6px;
+        border: none;
+        height: 40px;
+        /* padding: 10px 10px; */
+        width: 90%;
+        display: flex;
+        justify-content: center;
+      }
+      .form-group{
+        display: flex;
+        justify-content: center;
+      }
+      
+        
+}
